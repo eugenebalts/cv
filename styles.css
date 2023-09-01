@@ -1,0 +1,226 @@
+@page {
+  size: A4;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+a {
+  color: #cccccc;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Cambria";
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  width: 90%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 6px;
+}
+
+.section__title {
+  padding-bottom: 3px;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.right-side .section__title {
+  color: #1e1e1e;
+  font-weight: 700;
+  border-bottom: 2px solid #1e1e1e;
+}
+
+.section__subtitle {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.section__list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 5px;
+  gap: 7px;
+  font-size: 16px;
+}
+
+.right-side .section__list {
+  padding-left: 20px;
+  line-height: 1.5rem;
+  font-size: 18px;
+  gap: 5px;
+}
+
+.work-experience__list,
+.education__list {
+  gap: 15px !important;
+}
+
+.right-side .section__item {
+  list-style: disc;
+}
+
+.section__item.work-experience__item,
+.section__item.education__item {
+  list-style: none;
+}
+
+.section__subtitle {
+  font-size: 18px;
+}
+
+.work-experience__position,
+.education__position {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+
+.work-experience__company {
+  color: #ff9900;
+}
+
+.work-experience__date {
+  font-size: 14px;
+  color: gray;
+}
+
+.item__title {
+  font-size: 15px;
+}
+
+.item__subtitle {
+  color: #3d3d3d;
+}
+
+.left-side {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  width: 25%;
+  min-height: 100vh;
+  margin: 0 auto;
+  height: auto;
+  color: #cccccc;
+  background: #1e1e1e;
+  background-image: radial-gradient(
+    circle,
+    transparent 1%,
+    rgba(255, 255, 255, 0.1) 100%
+  );
+  background-size: 200% 200%;
+}
+
+.image {
+  position: relative;
+  align-self: center;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+
+.image img {
+  position: absolute;
+  top: -10px;
+  width: 100%;
+  height: auto;
+}
+
+.contacts__item,
+.contacts__item a {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  list-style-type: none;
+}
+
+.contacts__item span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  width: 1rem;
+  height: 1rem;
+  box-sizing: content-box;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 100%;
+}
+
+.contacts__item img {
+  height: 1rem;
+}
+
+.right-side {
+  width: 75%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  color: #1e1e1e;
+}
+
+.section_main-info {
+  background-color: rgba(0, 0, 0, 0.1);
+  font-family: "Calibri";
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+}
+
+.title {
+  text-align: center;
+  display: inline;
+  letter-spacing: 4px;
+  font-size: 34px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  padding-top: 10px;
+  border-top: 2px solid rgba(55, 55, 55, 0.5);
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.skills__list {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.skills__item {
+  padding: 3px;
+  background: #cccccc;
+  font-weight: 600;
+  color: #1e1e1e;
+  border-radius: 2px;
+}
+
+.access {
+  text-align: center;
+}

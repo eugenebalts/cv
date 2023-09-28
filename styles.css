@@ -21,7 +21,7 @@ html {
 body {
   width: 800px;
   overflow-x: hidden;
-  font-family: "Cambria";
+  font-family: 'Cambria';
 }
 
 .main {
@@ -45,7 +45,7 @@ body {
 
 .section__title {
   padding-bottom: 3px;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -60,7 +60,7 @@ body {
 }
 
 .section__subtitle {
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
 }
 
@@ -70,13 +70,13 @@ body {
   align-items: flex-start;
   padding-left: 5px;
   gap: 7px;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .right-side .section__list {
   padding-left: 20px;
-  line-height: 1.5rem;
-  font-size: 18px;
+  line-height: 1.3rem;
+  font-size: 14px;
   gap: 5px;
 }
 
@@ -92,10 +92,7 @@ body {
 .section__item.work-experience__item,
 .section__item.education__item {
   list-style: none;
-}
-
-.section__subtitle {
-  font-size: 18px;
+  width: 100%;
 }
 
 .work-experience__position,
@@ -109,9 +106,18 @@ body {
   color: #ff9900;
 }
 
+.work-experience__additional {
+  display: flex;
+  justify-content: space-between;
+}
+
 .work-experience__date {
   font-size: 14px;
   color: gray;
+}
+
+.work-experience__certificate {
+  color: #0000ff;
 }
 
 .item__title {
@@ -190,7 +196,7 @@ body {
 
 .section_main-info {
   background-color: rgba(0, 0, 0, 0.1);
-  font-family: "Calibri";
+  font-family: 'Calibri';
   align-items: center;
   gap: 10px;
   padding: 10px;
@@ -207,7 +213,7 @@ body {
 .subtitle {
   padding-top: 10px;
   border-top: 2px solid rgba(55, 55, 55, 0.5);
-  font-size: 24px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
 }

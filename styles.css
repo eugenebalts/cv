@@ -20,11 +20,13 @@ html {
 
 body {
   width: 800px;
+  height: 1122px;
   overflow-x: hidden;
   font-family: 'Cambria';
 }
 
 .main {
+  height: 100%;
   display: flex;
   justify-content: center;
 }
@@ -34,6 +36,7 @@ body {
   flex-direction: column;
   gap: 20px;
   width: 90%;
+  justify-content: space-around;
 }
 
 .section {
@@ -152,7 +155,15 @@ body {
 .education__position {
   display: flex;
   flex-direction: column;
-  gap: 0px;
+  gap: 3px;
+}
+
+.education__list {
+  gap: 15px;
+}
+
+.education__list .section__subtitle {
+  font-weight: 400;
 }
 
 .work-experience__company {
@@ -160,12 +171,14 @@ body {
 }
 
 .work-experience__additional {
+  gap: 3px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .work-experience__date {
-  font-size: 14px;
+  font-size: 12px;
   color: gray;
 }
 
@@ -175,7 +188,7 @@ body {
   gap: 2px;
   position: relative;
   font: 700 14px/1.5 'Plus Jakarta Sans', sans-serif;
-  color: #0058c1;
+  color: #85bcff;
   transition: all 0.3s ease-in-out;
 }
 
@@ -259,29 +272,26 @@ body {
   width: 70%;
   display: flex;
   justify-content: center;
-  padding: 30px 0;
+  padding: 10px 0;
   color: #1e1e1e;
 }
 
 .section_main-info {
-  background-color: rgba(0, 0, 0, 0.1);
+  /* background-color: rgba(0, 0, 0, 0.1); */
   font-family: 'Calibri';
-  align-items: center;
-  gap: 7px;
-  padding: 10px;
+  align-items: flex-end;
+  gap: 3px;
 }
 
 .title {
-  text-align: center;
   display: inline;
   letter-spacing: 4px;
   font-size: 24px;
   text-transform: uppercase;
+  font-family: 'Gloock', sans-serif;
 }
 
 .subtitle {
-  padding-top: 7px;
-  border-top: 2px solid rgba(55, 55, 55, 0.5);
   font-size: 20px;
   font-weight: 400;
 }

@@ -10,7 +10,7 @@
 }
 
 a {
-  color: #cccccc;
+  color: #e5e5e5;
   text-decoration: none;
 }
 
@@ -19,8 +19,9 @@ body {
   width: 800px;
   min-height: 1122px;
   overflow-x: hidden;
-  font-family: 'Cambria';
+  font-family: 'Roboto', sans-serif;
   border: 0.2px solid black;
+  background-color: black;
 }
 
 .main {
@@ -28,6 +29,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: white;
 }
 
 .container {
@@ -81,7 +83,7 @@ body {
   flex-direction: row;
   justify-content: space-between;
   flex: 1;
-  color: #cccccc;
+  color: #e5e5e5;
 }
 
 .content {
@@ -97,7 +99,7 @@ body {
   color: grey;
   text-transform: initial;
   letter-spacing: initial;
-  font-family: 'Calibri';
+  font-family: 'Roboto', sans-serif;
   font-weight: 400;
 }
 
@@ -147,7 +149,7 @@ body {
 .education__position {
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 8px;
 }
 
 .work-experience__list {
@@ -268,22 +270,21 @@ body {
 
 .section_main-info {
   padding: 10px;
-  font-family: 'Calibri';
-  /* align-items: center; */
+  font-family: 'Roboto', sans-serif;
   border-radius: 4px;
   gap: 7px;
 }
 
 .title {
   display: inline;
-  letter-spacing: 4px;
-  font-size: 20px;
-  font-family: 'Gloock', sans-serif;
+  letter-spacing: 2px;
+  font-size: 22Spx;
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 
 .subtitle {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: white;
   padding-bottom: 10px;
@@ -306,7 +307,7 @@ body {
 
 .skills__item {
   padding: 3px;
-  background: #cccccc;
+  background: #e5e5e5;
   font-weight: 600;
   color: #1e1e1e;
   border-radius: 2px;
@@ -315,6 +316,6 @@ body {
 .rodo {
   padding: 10px 0;
   border-top: 3px solid #1e1e1e;
-  font-size: 60%;
+  font-size: 12px;
   text-align: center;
 }
